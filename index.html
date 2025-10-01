@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>0x873 Portfolio</title>
   <style>
     * {
       margin: 0;
@@ -51,6 +51,7 @@
       margin-top: 1.5rem;
       display: flex;
       gap: 1rem;
+      justify-content: center;
     }
 
     .social-links a {
@@ -61,7 +62,7 @@
     }
 
     .social-links a:hover {
-      color: #1db954; /* Spotify green for hover effect, can change */
+      color: #1db954;
     }
 
     section {
@@ -77,31 +78,11 @@
       padding-bottom: 0.3rem;
     }
 
-    .projects {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: center;
-      margin-top: 1rem;
-    }
-
-    .project-card {
-      background: #1e1e1e;
-      padding: 1rem;
-      border-radius: 10px;
-      width: 200px;
-      text-align: center;
-      transition: transform 0.3s;
-    }
-
-    .project-card:hover {
-      transform: scale(1.05);
-    }
-
-    .project-card img {
-      width: 100%;
-      border-radius: 5px;
-      margin-bottom: 0.5rem;
+    section p {
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+      color: #ccc;
     }
 
     footer {
@@ -115,9 +96,10 @@
 <body>
 
   <header>
-    <img src="https://imgur.com/a/jvPAe7t" alt="Profile Picture"> <!-- Replace with your pic -->
+    <!-- Replace the URL with your direct GIF link -->
+    <img src="https://imgur.com/nTmMiJQ" alt="Profile Picture">
     <h1>0x873</h1>
-    <p>Gamer | Amature Developer </p>
+    <p>Gamer | Amateur Developer</p>
     <div class="social-links">
       <a href="https://steamcommunity.com/id/valerziii/" target="_blank">Steam</a>
       <a href="#" target="_blank">Twitter</a>
@@ -126,25 +108,16 @@
   </header>
 
   <section>
-    <h2>Projects</h2>
-    <div class="projects">
-      <div class="project-card">
-        <img src="project1.jpg" alt="Project 1">
-        <p>Project Name 1</p>
-      </div>
-      <div class="project-card">
-        <img src="project2.jpg" alt="Project 2">
-        <p>Project Name 2</p>
-      </div>
-      <div class="project-card">
-        <img src="project3.jpg" alt="Project 3">
-        <p>Project Name 3</p>
-      </div>
-    </div>
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm <strong>0x873</strong>, a gamer and amateur developer. I love creating fun projects, learning new technologies, and sharing my work online. My goal is to grow my skills and build cool stuff that people enjoy.
+      <br><br>
+      When I'm not coding, you can find me gaming, exploring new tech, or just tinkering with random ideas.
+    </p>
   </section>
 
   <footer>
-    &copy; 2025 Username. All rights reserved.
+    &copy; 2025 0x873. All rights reserved.
   </footer>
 
 </body>
