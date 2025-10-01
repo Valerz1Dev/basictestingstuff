@@ -34,11 +34,10 @@
       width: 100%;
       height: 100%;
       background: url('https://i.imgur.com/CjXT8EJ.jpeg') no-repeat center center/cover;
-      opacity: 0.25; /* 25% opacity */
+      opacity: 0.25;
       z-index: -1;
     }
 
-    /* Top-right text + date */
     .top-right {
       position: fixed;
       top: 1rem;
@@ -109,7 +108,7 @@
       margin: 0 auto;
       line-height: 1.6;
       color: #ccc;
-      white-space: pre-line; /* preserves line breaks */
+      white-space: pre-line;
     }
 
     section p a {
@@ -122,6 +121,28 @@
       color: #1db954;
     }
 
+    /* Funny pictures gallery */
+    .funny-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .funny-gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #1db954;
+      transition: transform 0.3s;
+    }
+
+    .funny-gallery img:hover {
+      transform: scale(1.05);
+    }
+
     footer {
       margin-top: auto;
       margin-top: 3rem;
@@ -132,7 +153,6 @@
 </head>
 <body>
 
-  <!-- Top-right text -->
   <div class="top-right">
     Updated: 1.10.2025
   </div>
@@ -167,6 +187,23 @@ Discord: 00x873 or f1nski
 
 Feel free to message me at any time! :)
     </p>
+  </section>
+
+  <section>
+    <h2>Honorable Mentions</h2>
+    <p>
+Shoutouts to:  
+-No one yet ;(
+    </p>
+  </section>
+
+  <section>
+    <h2>Funny Pictures</h2>
+    <div class="funny-gallery">
+      <img src="https://i.imgur.com/your-funny1.jpg" alt="Funny Picture 6">
+      <img src="https://i.imgur.com/your-funny2.jpg" alt="Funny Picture 7">
+      <img src="https://i.imgur.com/your-funny3.jpg" alt="Ill upload one in sec">
+    </div>
   </section>
 
   <footer>
